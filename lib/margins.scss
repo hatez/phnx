@@ -1,0 +1,209 @@
+@import 'variables';
+/** Global sliced elements **/
+.mtq
+{
+	margin-top: $m-quarter;
+}
+.mth
+{
+	margin-top: $m-half;
+}
+
+.mtqx2
+{
+	margin-top: $m-quarterx2;
+}
+
+.mtf
+{
+	margin-top: $m-full;
+}
+
+
+.mlq
+{
+	margin-left: $m-quarter;
+}
+.mlh
+{
+	margin-left: $m-half;
+}
+
+.mlqx2
+{
+	margin-left: $m-quarterx2;
+}
+
+.mlf
+{
+	margin-left: $m-full;
+}
+
+.mrq
+{
+	margin-right: $m-quarter;
+}
+.mrh
+{
+	margin-right: $m-half;
+}
+
+.mrqx2
+{
+	margin-right: $m-quarterx2;
+}
+
+.mrf
+{
+	margin-right: $m-full;
+}
+
+.mbf
+{
+	margin-bottom: $m-full;
+}
+
+.mbq
+{
+	margin-bottom: $m-quarter;
+}
+.mbh
+{
+	margin-bottom: $m-half;
+}
+
+.mbqx2
+{
+	margin-bottom: $m-quarterx2;
+}
+
+.mbf
+{
+	margin-bottom: $m-full;
+}
+
+/** Global Margin-top **/
+.mts
+{
+	margin-top: $m-s;
+}
+
+.mtxs
+{
+	margin-top: $m-xs;
+}
+
+.mtm
+{
+	margin-top: $m-m;
+}
+
+.mtxm
+{
+	margin-top: $m-xm;
+}
+
+.mtl
+{
+	margin-top: $m-l;
+}
+
+.mtxl
+{
+	margin-top: $m-xl;
+}
+
+
+
+/** Global Margin-left **/
+.mls
+{
+	margin-left: $m-s;
+}
+
+.mlxs
+{
+	margin-left: $m-xs;
+}
+
+.mlm
+{
+	margin-left: $m-m;
+}
+
+.mlxm
+{
+	margin-left:$m-xm;
+}
+
+.mll
+{
+	margin-left: $m-l;
+}
+
+.mlxl
+{
+	margin-left: $m-xl;
+}
+
+/** Global Margin-Right **/
+.mrs
+{
+	margin-right: $m-s;
+}
+
+.mrxs
+{
+	margin-right: $m-xs;
+}
+
+.mrm
+{
+	margin-right: $m-m;
+}
+
+.mrxm
+{
+	margin-right: $m-xm;
+}
+
+.mrl
+{
+	margin-right: $m-l;
+}
+
+.mrxl
+{
+	margin-right: $m-xl;
+}
+
+/** Global Margin-bottom **/
+.mbs
+{
+	margin-bottom: $m-s;
+}
+
+.mbxs
+{
+	margin-bottom: $m-xs;
+}
+
+.mbm
+{
+	margin-bottom: $m-m;
+}
+
+.mbxm
+{
+	margin-bottom: $m-xm;
+}
+
+.mbl
+{
+	margin-bottom: $m-l;
+}
+
+.mbxl
+{
+	margin-bottom: $m-xl;
+}
