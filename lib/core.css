@@ -1,0 +1,293 @@
+/* Global Container 
+/*
+/*
+/* Contains: typo,grid,wrappers,props;
+/*
+/*
+*/
+
+/* wrappers */
+
+body
+{
+	background-color: #DADFE1;
+	margin:5px;
+}
+
+html {
+  box-sizing: border-box;
+}
+.globalContainer 
+{
+  	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.of-x
+{
+	overflow-x: visible;
+}
+
+.colStyle
+{
+  border: 1.5px solid #BDC3C7;
+  background-color: #ECECEC;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.objLeft
+{
+	float:left;
+}
+
+.objRight
+{
+	float:right;
+}
+#helper:hover + #test
+{
+	display: block;
+}
+
+/* typo */ 
+
+h4.leader
+{
+	color: #4183D7;
+	text-align: center;
+	font-family: 'Muli', sans-serif;
+	font-size: 30px;
+}
+
+h3.lead
+{
+	color: #4183D7;
+	text-align: left;
+	font-family: 'Muli', sans-serif;
+}
+
+p.name
+{
+	font-family: 'Muli', sans-serif;
+	color:#22313F ;
+	margin: 0; /* used everywhere, fixed pos */
+	font-size: 20px;
+}
+
+p.name-mr
+{
+	font-family: 'Muli', sans-serif;
+	color:#22313F ;
+	margin: 0; /* used everywhere, fixed pos */
+	font-size: 20px;
+	float:right;
+}
+
+
+p.code-ml
+{
+	font-family: 'Space Mono', monospace;
+	color:#c7254e;
+	margin: 0; /* used everywhere, fixed pos */
+	font-size: 20px;
+	width: 100px;
+	background-color:#f9f2f4;;
+	float:left;
+}
+
+p.code-mr
+{
+	font-family: 'Space Mono', monospace;
+	color:#c7254e;
+	margin: 0; /* used everywhere, fixed pos */
+	font-size: 20px;
+	width: 100px;
+	background-color:#f9f2f4;;
+	float:right;
+}
+
+.pt
+{
+	border-top: 3px solid #4183D7;
+}
+
+.pr
+{
+	border-right: 3px solid #4183D7;
+}
+
+.pl
+{
+	border-left: 3px solid #4183D7;
+}
+
+.pb
+{
+	border-bottom: 3px solid #4183D7;
+}
+
+p.code-pt
+{
+	font-family: 'Space Mono', monospace;
+	color:#c7254e;
+	margin: 0; /* used everywhere, fixed pos */
+	font-size: 20px;
+	width: 100px;
+	background-color:#f9f2f4;;
+	float:left;
+	
+}
+
+p.code-pb
+{
+	font-family: 'Space Mono', monospace;
+	color:#c7254e;
+	margin: 0; /* used everywhere, fixed pos */
+	font-size: 20px;
+	width: 100px;
+	background-color:#f9f2f4;;
+	float:left;
+}
+
+p.code-pr
+{
+	font-family: 'Space Mono', monospace;
+	color:#c7254e;
+	margin: 0; /* used everywhere, fixed pos */
+	font-size: 20px;
+	width: 100px;
+	background-color:#f9f2f4;;
+	float:right;
+}
+
+p.code-pl
+{
+	font-family: 'Space Mono', monospace;
+	color:#c7254e;
+	margin: 0; /* used everywhere, fixed pos */
+	font-size: 20px;
+	width: 100px;
+	background-color:#f9f2f4;;
+	float:left;
+}
+
+
+p.code-pr
+{
+	font-family: 'Space Mono', monospace;
+	color:#c7254e;
+	margin: 0; /* used everywhere, fixed pos */
+	font-size: 20px;
+	width: 100px;
+	background-color:#f9f2f4;;
+	float:right;
+}
+
+p.code
+{
+	font-family: 'Space Mono', monospace;
+	color:#c7254e;
+	margin: 0; /* used everywhere, fixed pos */
+	font-size: 20px;
+	width: 100px;
+	background-color:#f9f2f4;;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p.s
+{
+	font-size: 12px;
+}
+
+p.xs
+{
+	font-size: 14px;
+}
+
+p.m
+{
+	font-size: 20px;
+}
+
+p.xm
+{
+	font-size: 24px;
+}
+
+p.l
+{
+	font-size: 30px;
+}
+
+p.xl
+{
+	font-size: 34px;
+}
+
+
+p.mainBlue
+{
+	color: #4183D7;
+}
+/* props */
+hr
+{
+	margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 2px solid #4183D7;
+}
+
+hr.big
+{
+	margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 20px solid #4183D7;
+}
+
+[data-tooltip] {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+/* Hide the tooltip content by default */
+[data-tooltip]:before,
+[data-tooltip]:after {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Position tooltip above the element */
+[data-tooltip]:before {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-bottom: 5px;
+  margin-left: -80px;
+  width: 180px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #4183D7;
+  color: #fff;
+  font-family: 'Muli', sans-serif;
+  content: attr(data-tooltip);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  opacity: 1;
+}
